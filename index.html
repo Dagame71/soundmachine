@@ -69,7 +69,34 @@
   <h1>Slap Shot Sound Machine</h1>
   <div class="grid">
     <!-- 28 Pulsanti -->
-    ${[...Array(28)].map((_, i) => `<button onclick="playSound(${i+1})">${i+1}</button>`).join('')}
+    <button onclick="playSound(1)">1</button>
+<button onclick="playSound(2)">2</button>
+<button onclick="playSound(3)">3</button>
+<button onclick="playSound(4)">4</button>
+<button onclick="playSound(5)">5</button>
+<button onclick="playSound(6)">6</button>
+<button onclick="playSound(7)">7</button>
+<button onclick="playSound(8)">8</button>
+<button onclick="playSound(9)">9</button>
+<button onclick="playSound(10)">10</button>
+<button onclick="playSound(11)">11</button>
+<button onclick="playSound(12)">12</button>
+<button onclick="playSound(13)">13</button>
+<button onclick="playSound(14)">14</button>
+<button onclick="playSound(15)">15</button>
+<button onclick="playSound(16)">16</button>
+<button onclick="playSound(17)">17</button>
+<button onclick="playSound(18)">18</button>
+<button onclick="playSound(19)">19</button>
+<button onclick="playSound(20)">20</button>
+<button onclick="playSound(21)">21</button>
+<button onclick="playSound(22)">22</button>
+<button onclick="playSound(23)">23</button>
+<button onclick="playSound(24)">24</button>
+<button onclick="playSound(25)">25</button>
+<button onclick="playSound(26)">26</button>
+<button onclick="playSound(27)">27</button>
+<button onclick="playSound(28)">28</button>
   </div>
 
   <button class="mute-btn" onclick="stopAllSounds()">🔇 MUTE</button>
@@ -88,7 +115,7 @@
         a.pause();
         a.currentTime = 0;
       });
-      playingAudios.length = 0; // svuota la lista
+      playingAudios.length = 0;
     }
   </script>
 </body>
